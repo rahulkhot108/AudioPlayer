@@ -1,11 +1,16 @@
 package com.example.perfectaudioplayer;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Handler;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -19,6 +24,8 @@ import android.widget.TextView;
 import com.gauravk.audiovisualizer.visualizer.BarVisualizer;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PerfectAudioPlayer extends RelativeLayout implements MediaPlayer.OnCompletionListener, SeekBar.OnSeekBarChangeListener, MediaPlayer.OnBufferingUpdateListener {
 
@@ -35,6 +42,10 @@ public class PerfectAudioPlayer extends RelativeLayout implements MediaPlayer.On
     private int seekBackwardTime = 5000; // 5000 milliseconds
     private BarVisualizer barVisualizer;
     private Context context;
+
+    String[] permissions = new String[]{
+            Manifest.permission.RECORD_AUDIO,
+    };
 
     private OnCompletionListener onCompletionListener;
 

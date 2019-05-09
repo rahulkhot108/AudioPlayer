@@ -3,6 +3,7 @@
     package="com.example.rkaudioplayer">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Play web url audio file required permission. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Play Music Visualizer required permission. -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
