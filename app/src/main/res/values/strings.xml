@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidBuildingMusicPlayerActivity!</string>
+    <string name="app_name">AudioPlayer</string>
+    <string name="buttondescription">ButtonDescription</string>
+    <string name="the_good_the_bad_and_the_ugly">The Good, The Bad And The Ugly</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
