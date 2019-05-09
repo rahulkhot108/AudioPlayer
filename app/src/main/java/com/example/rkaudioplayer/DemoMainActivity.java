@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.perfectaudioplayer.OnCompletionListener;
+import com.example.perfectaudioplayer.RKAudioPlayerWidget;
+
 public class DemoMainActivity extends AppCompatActivity {
    private RKAudioPlayerWidget apPerfect;
     @Override

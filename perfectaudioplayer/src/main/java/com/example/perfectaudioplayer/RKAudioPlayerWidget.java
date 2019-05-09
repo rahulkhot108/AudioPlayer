@@ -1,4 +1,4 @@
-package com.example.rkaudioplayer;
+package com.example.perfectaudioplayer;
 
 import android.content.Context;
 import android.content.res.Configuration;
