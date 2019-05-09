@@ -5,10 +5,10 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.perfectaudioplayer.OnCompletionListener;
-import com.example.perfectaudioplayer.RKAudioPlayerWidget;
+import com.example.perfectaudioplayer.PerfectAudioPlayer;
 
 public class DemoMainActivity extends AppCompatActivity {
-   private RKAudioPlayerWidget apPerfect;
+   private PerfectAudioPlayer apPerfect;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

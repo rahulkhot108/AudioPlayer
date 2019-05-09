@@ -20,7 +20,7 @@ import com.gauravk.audiovisualizer.visualizer.BarVisualizer;
 
 import java.io.IOException;
 
-public class RKAudioPlayerWidget extends RelativeLayout implements MediaPlayer.OnCompletionListener, SeekBar.OnSeekBarChangeListener, MediaPlayer.OnBufferingUpdateListener {
+public class PerfectAudioPlayer extends RelativeLayout implements MediaPlayer.OnCompletionListener, SeekBar.OnSeekBarChangeListener, MediaPlayer.OnBufferingUpdateListener {
 
     private LayoutInflater mInflater;
     private ImageButton btnPlay;
@@ -38,14 +38,14 @@ public class RKAudioPlayerWidget extends RelativeLayout implements MediaPlayer.O
 
     private OnCompletionListener onCompletionListener;
 
-    public RKAudioPlayerWidget(Context context, AttributeSet attrs, int defStyle) {
+    public PerfectAudioPlayer(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         mInflater = LayoutInflater.from(context);
         this.context = context;
         init();
     }
 
-    public RKAudioPlayerWidget(Context context, AttributeSet attrs) {
+    public PerfectAudioPlayer(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.context = context;
         mInflater = LayoutInflater.from(context);
